@@ -1,0 +1,17 @@
+//inicializar uma aplicação flask
+flask run
+
+//inicializar banco de dados
+flask db init
+
+//criando uma migration
+flask db migrate -m "<nome_da_migration>"
+
+//aplicanto a migration
+flask db upgrade
+
+//desfazendo uma migration
+flask db downgrade
+
+//fazer a pre-importação de comandos shell
+flask shell
