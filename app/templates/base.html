@@ -11,6 +11,7 @@
         <div>
           FlaskBlog: 
           <a href="{{ url_for('index') }}">Página Inicial</a>
+          <a href="{{ url_for('explore') }}">Explore</a>
           {% if current_user.is_anonymous %}
           <a href="{{ url_for('login') }}">Entrar</a>
           {% else %}
